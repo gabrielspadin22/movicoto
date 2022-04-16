@@ -1,0 +1,13 @@
+.sucus {
+	margin: 20px;
+	display: grid;
+	grid-template-columns: repeat(12, 2fr);
+	grid-template-rows: repeat(12, 2fr);
+	grid-column-gap: 2px;
+	grid-row-gap: 2px;
+}
+
+.suc{
+	text-align: center;
+	border: 1px solid black;
+}

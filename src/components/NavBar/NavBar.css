@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #005eff;
+}
+h1{
+    margin-bottom: 10px;
+}
+.navbar form{
+    margin-bottom: 20px;
+}
+.navbar ul{
+    padding: 0;
+    margin: 10px;
+    display: inline-flex;
+    list-style-type: none;
+    text-decoration-line: none;
+}
+.btn{
+    background-color: #fefefe;
+    border: solid 1px ;
+    border-radius: 5px;
+    font-size: 25px;
+    margin: 25px;
+    text-decoration: none;
+}
+.btn:hover{
+    transition: all .3s;
+    color: #717171;
+}
