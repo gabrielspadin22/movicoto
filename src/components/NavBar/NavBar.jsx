@@ -1,16 +1,15 @@
 import React from 'react';
 
-function NavBar(props) {
+function NavBar() {
     return (
         <div className='navbar'>
-            <h1>Movi-Coto</h1>
             <div>
                 <ul>
                     <li><button className='btn'>Vista por sucursal</button></li>  
                     <li><button className='btn'>Vista por sector (B12)</button></li>                   
                 </ul>
-                <form action="">
-                    <input type="number" placeholder='Legajo'/>
+                <form action=""> {/* LOGEO DEL USUARIO CORRESPONDIENTE A SU SECTOR EL CUAL SE IMPRIME EN EL CONTROL.JSX*/}
+                    <input id='usr' type="number" placeholder='Legajo'/>
                     <input type="password" name="" id="" placeholder='Contraseña' />
                     <button type="submit">Ingresar</button>
                 </form>
@@ -18,5 +17,4 @@ function NavBar(props) {
         </div>
     );
 }
-
 export default NavBar;

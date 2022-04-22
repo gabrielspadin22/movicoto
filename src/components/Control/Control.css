@@ -1,7 +1,12 @@
 .container{
 	margin: auto;
 }
+.control-container{
+	color: black;
+	background-color: #005eff;
+}
 .sector{
+	
 	display: inline-block;
 	margin: 15px;
 	text-align: center;

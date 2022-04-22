@@ -5,6 +5,7 @@
 	grid-template-rows: repeat(12, 2fr);
 	grid-column-gap: 2px;
 	grid-row-gap: 2px;
+	color: black;
 }
 
 .suc{

@@ -1,8 +1,8 @@
 import React from 'react';
-let sector = "RTI";
-function Control(props) {
+
+function Control({sector}) {
     return (
-        <div>
+        <div className='control-container'>
             <div className="sector">{sector}</div>
             <div className="container">
                 <button className="v1 nums rec1 reset">1</button>

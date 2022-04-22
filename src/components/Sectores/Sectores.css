@@ -1,0 +1,21 @@
+.parent {
+	display: grid;
+	grid-template-columns: repeat(7, 2fr);
+	grid-template-rows: repeat(2, 2fr);
+	grid-column-gap: 2px;
+	grid-row-gap: 2px;
+}
+.parent div {
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+.sctrs{
+    background-color: #005eff;
+    color: black;
+    border: solid 2px black;
+    margin: 20px;
+}
+.sctrs p {
+    margin: 0;
+    border: solid 2px black;
+}

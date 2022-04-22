@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Sucus(props) {
+function Sucus() {
     return (
 <div className="sucus">
     <div className="div1 suc reset" >2 </div>
